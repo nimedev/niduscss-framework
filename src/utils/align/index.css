@@ -1,0 +1,47 @@
+/** Vertical align utilies */
+
+/**
+ * INLINE VERTICAL CENTERING
+ * Common use in navigation links with icons.
+ */
+
+/* The ghost */
+
+@define-mixin u-alignGhost {
+  /* Box-model */
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* This parent can be any width and height */
+
+@define-mixin u-alignContainer {
+  /* Tipography */
+  font-size: 0;
+
+  /**
+   * May want to do this if there is risk the container may be narrower than
+   * the element inside
+   */
+  white-space: nowrap;
+}
+
+.u-alignContainer {
+  @mixin u-alignContainer;
+}
+
+/* The ghost, nudged to maintain perfect centering */
+
+.u-alignContainer::before {
+  @mixin u-alignGhost;
+}
+
+/* The element to be centered, can also be of any width and height */
+
+.u-alignItem--centered {
+  /* Box-model */
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,48 @@
+/** Reset values for links */
+
+:root {
+  --Link-color: #262626;
+  --Link-color-focus: #1565c0;
+}
+
+/* Mixins for links
+   ========================================================================== */
+
+@define-mixin noneDecoration {
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+/* Default styles for links
+   ========================================================================== */
+
+a {
+  text-decoration: underline;
+  color: var(--Link-color);
+
+  &:visited {
+    color: var(--Link-color);
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    outline: thin dotted;
+    color: var(--Link-color-focus);
+  }
+
+  &:hover,
+  &:active {
+    outline: 0;
+  }
+}

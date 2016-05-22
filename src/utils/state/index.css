@@ -1,0 +1,19 @@
+/**
+ * Classes that represent a state for a element
+ */
+
+/**
+ * Add cursor pointer to element
+ */
+
+.is-clickable {
+  cursor: pointer;
+}
+
+/**
+ * Block scroll when open dialog box or have this hook.
+ */
+
+.is-not-scrolling {
+  overflow: hidden;
+}

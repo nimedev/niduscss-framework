@@ -1,0 +1,32 @@
+{
+  "name": "niduscss-elements-typography",
+  "version": "1.0.0",
+  "description": "Default style used in elements related with text for niduscss framework",
+  "style": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/niduscss-framework"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "css text",
+    "css headings",
+    "css paragraph"
+  ],
+  "author": {
+    "name": "Nicolas Mejia",
+    "email": "nimedev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/niduscss-framework/issues"
+  },
+  "homepage": "https://github.com/nimedev/niduscss-framework",
+  "engines": {
+    "node": ">=6.0.0 <7.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+/**
+ * Divider component
+ */
+
+.Divider {
+  /* Box-model */
+  display: block;
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin: 0;
+
+  /* Visual */
+  border-top-color: rgba(0, 0, 0, 0.12);
+}

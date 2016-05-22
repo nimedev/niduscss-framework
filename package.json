@@ -1,0 +1,35 @@
+{
+  "name": "niduscss-framework",
+  "version": "1.0.0",
+  "description": "A personal CSS framework to process with PostCSS",
+  "style": "src/niduscss.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/niduscss-framework"
+  },
+  "keywords": [
+    "css",
+    "postcss"
+  ],
+  "author": {
+    "name": "Nicolas Mejia",
+    "email": "nimedev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/niduscss-framework/issues"
+  },
+  "homepage": "https://github.com/nimedev/niduscss-framework",
+  "engines": {
+    "node": ">=6.0.0 <7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "=2.10.2",
+    "eslint-config-nimedev": "=1.0.0",
+    "stylelint": "=6.5.1",
+    "stylelint-config-nimedev": "=1.0.0"
+  }
+}

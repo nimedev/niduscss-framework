@@ -1,0 +1,30 @@
+{
+  "name": "niduscss-utils-animation",
+  "version": "1.0.0",
+  "description": "CSS animations utilies for niduscss framework",
+  "style": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/niduscss-framework"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "css animations"
+  ],
+  "author": {
+    "name": "Nicolas Mejia",
+    "email": "nimedev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/niduscss-framework/issues"
+  },
+  "homepage": "https://github.com/nimedev/niduscss-framework",
+  "engines": {
+    "node": ">=6.0.0 <7.0.0"
+  }
+}

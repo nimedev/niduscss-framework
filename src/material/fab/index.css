@@ -1,0 +1,87 @@
+/**
+ * Fab button component
+ *
+ * Custom properties:
+ *  --FabButton-z-index: Modify z-index property;
+ *  --FabButton-background: Modify background color property.
+ *  --FabButton-color: Modify text color of button;
+ */
+
+/**
+ * 1. Prevent button text from being selectable.
+ */
+
+.FabButton {
+  /* Positioning */
+  z-index: var(--FabButton-z-index, 8000);
+
+  /* Box-model */
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 1rem;
+  min-width: 0;
+  width: 3.5rem;
+  height: 3.5rem;
+  vertical-align: middle;
+
+  /* Typography */
+  color: var(--FabButton-color, #fff);
+  font-size: 0;
+  line-height: 3.5rem;
+  text-align: center;
+  white-space: nowrap;
+
+  /* Visual */
+  background-color: var(--FabButton-background, #ff7043);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 50%;
+  background-clip: padding-box;
+
+  /* Misc */
+  user-select: none; /* 1 */
+  transition: all 0.5s ease;
+
+  /* pseudo element to vertical align */
+  &::before {
+    /* Box-model */
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &:visited {
+    color: var(--FabButton-color, #fff);
+  }
+
+  /* Styles for icon inside FAB button */
+  &-icon {
+    /* Box-model */
+    width: 1.5rem;
+    vertical-align: middle;
+  }
+
+  /* Fab button mini */
+  &--mini {
+    /* Box-model */
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+
+    /* Typography */
+    line-height: 2.5rem;
+  }
+}

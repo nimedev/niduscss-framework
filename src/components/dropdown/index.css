@@ -1,0 +1,134 @@
+/**
+ * Dropdown component
+ *
+ * Custom properties:
+ *  --Dropdown-z-index: Modify z-index of dropdown component.
+ *  --Dropdown-checked-color: Modify color property when dropdown label is
+ *    checked.
+ *  --Dropdown-pointer-color: Modify color property when use nice pointer.
+ */
+
+.Dropdown {
+  /* Positioning */
+  position: relative;
+  z-index: var(--Dropdown-z-index, 8000);
+
+  /* Box-model */
+  display: inline-block;
+
+  /* Hide the checkbox itself.
+  Checking and unchecking it we will be done via the label element. */
+  input[type=checkbox] {
+    display: none;
+  }
+
+  /* Change label color when dropdown is open */
+  input[type=checkbox]:checked ~ .Dropdown-label {
+    color: var(--Dropdown-checked-color, #fafafa);
+  }
+
+  /* Show dropdown */
+  input[type=checkbox]:checked ~ .Dropdown-list {
+    display: block;
+  }
+}
+
+  .Dropdown-label {
+    /* Click to expand button */
+
+    /* Positioning */
+    position: relative;
+
+    /* Box-model */
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    width: 3rem;
+
+    /* Tipography */
+    text-align: center;
+
+    /* Visual */
+    cursor: pointer;
+
+    /* Misc */
+    user-select: none;
+  }
+
+  .Dropdown-list {
+    /* Dropdown menu start hidden */
+
+    /* Positioning */
+    position: absolute;
+
+    /* Box-model */
+    display: none;
+    margin: 0;
+    padding: 0;
+    min-width: 8rem;
+
+    /* Tipography */
+    text-align: left;
+
+    /* Visual */
+    list-style: none;
+    background-color: white;
+    box-shadow: 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.2), 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14), 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.12);
+
+    /**
+     * List from right of toggle button
+     * add 'dd-right' class in ul element
+     */
+    &.dd-right {
+      right: 0.75rem;
+    }
+
+    /**
+     * Menu with nice pointer
+     * add 'dd-pointer' class in ul element
+     */
+    &.dd-pointer {
+      /* Positioning */
+      top: calc(100% + 0.75rem);
+
+      /* Add nice pointer :D */
+      &::before {
+        /* Positioning */
+        position: absolute;
+        top: -0.75rem;
+
+        /* Box-model */
+        content: "";
+        display: block;
+        height: 0;
+        width: 1rem;
+
+        /* Visual */
+        border-color: transparent transparent var(--Dropdown-pointer-color, #fafafa) transparent;
+        border-style: solid;
+        border-width: 0 0.75rem 0.75rem 0.75rem;
+      }
+    }
+
+    /* Move pointer to right */
+    &.dd-pointer.dd-right {
+      &::before {
+        right: 0;
+      }
+    }
+  }
+
+  .Dropdown-item {
+    /* Style of dropdown item */
+
+    /* Box-model */
+    display: block;
+    padding: 0.5rem 1rem;
+
+    /* Tipography */
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+    /* Visual */
+    cursor: pointer;
+  }

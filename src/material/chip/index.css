@@ -1,0 +1,57 @@
+/**
+ * Chip component with material design styles
+ *
+ * Custom properties:
+ * --Chip-font-size: Modify font-size property.
+ * --Chip-selected: color of chip when is selected.
+ */
+
+.Chip {
+  /* Box-model */
+  display: block;
+  padding: 0 0.75rem;
+  height: 2rem;
+  line-height: 1.9rem;
+
+  /* Tipography */
+  font-size: var(--Chip-font-size, 1rem);
+  white-space: nowrap;
+
+  /* Visual */
+  background-color: #e6e6e6;
+  border-radius: 1rem;
+}
+
+/**
+ * Wrapper of chips elements
+ */
+
+.ChipsGroup {
+  /* Box-model */
+  display: flex;
+  flex-flow: row wrap;
+
+  /* Styles for chips inside de group wrapper */
+  .Chip {
+    /* Box-model */
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+
+    /* Visual */
+    cursor: pointer;
+
+    /* Style when chip is selected */
+    &.is-selected {
+      /* Tipography */
+      color: #fff;
+
+      /* Visual */
+      background-color: var(--Chip-selected, #ff6e40);
+    }
+
+    /* When is focused */
+    &:focus {
+      outline: 0;
+    }
+  }
+}

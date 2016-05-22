@@ -1,0 +1,83 @@
+
+/**
+ * Dialog component
+ * Use this component in content of forms.
+ *
+ * Custom properties:
+ *  --Dialog-title: text size for normal titles in header;
+ *  --Dialog-sm-title: text size for small titles in header;
+ *  --Dialog-bg-title: text size for big titles in header;
+ *  --Dialog-btn-color: text color of buttons in dialog footer;
+ */
+
+/**
+ * Header of dialog component
+ */
+
+.Dialog-header {
+  /* Box-model */
+  margin: 0 0 1.25rem;
+  padding: 1.5rem 1.5rem 0;
+
+  /** Styles for titles of the dialog header */
+  .Dialog-title {
+    /* Box-model */
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+
+    /* Tipography */
+    font-size: var(--Dialog-title), 1.25rem;
+    font-weight: bold;
+
+    /* Dialog title sizes */
+    &--sm {
+      font-size: var(--Dialog-sm-title, 1rem);
+    }
+
+    &--big {
+      font-size: var(--Dialog-bg-title, 1.5rem);
+    }
+  }
+}
+
+/**
+ * Body of dialog component
+ */
+
+.Dialog-body {
+  /* Box-model */
+  overflow: auto;
+  margin: 0 0 1.5rem;
+  padding: 0 1.5rem 0;
+}
+
+/**
+ * Footer of dialog component
+ */
+
+.Dialog-footer {
+  /* Box-model */
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  max-height: 3.25rem;
+  height: 3.25rem;
+  line-height: 2.25rem;
+
+  /* Tipography */
+  font-size: 0;
+  text-align: right;
+
+  .Dialog-btn {
+    /* Box-model */
+    margin-left: 0.5rem;
+    line-height: 2.25rem;
+
+    /* Tipography */
+    color: var(--Dialog-btn-color, #3f51b5);
+    font-size: 0.875rem;
+    font-weight: bold;
+
+    /* Visual */
+    background-color: transparent;
+  }
+}
