@@ -1,6 +1,6 @@
 {
   "name": "niduscss-lib-mixins",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Common mixins for niduscss framework",
   "style": "index.css",
   "scripts": {

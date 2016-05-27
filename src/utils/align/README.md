@@ -26,20 +26,6 @@ styles.css:
 /* Other styles */
 ```
 
-Use mixins in css files
-
-```css
-/* Container */
-.Container {
-  @mixin u-alignContainer;
-
-  /* Import the vertical centering ghost from align utils */
-  &::before {
-    @mixin u-alignGhost;
-  }
-}
-```
-
 Use in html files
 
 ```html

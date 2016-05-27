@@ -5,22 +5,6 @@
   --Link-color-focus: #1565c0;
 }
 
-/* Mixins for links
-   ========================================================================== */
-
-@define-mixin noneDecoration {
-  &:link,
-  &:visited,
-  &:hover,
-  &:active {
-    text-decoration: none;
-  }
-
-  &:focus {
-    outline: 0;
-  }
-}
-
 /* Default styles for links
    ========================================================================== */
 

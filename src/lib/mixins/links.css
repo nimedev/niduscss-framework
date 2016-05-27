@@ -1,0 +1,18 @@
+/** Mixins for links */
+
+/**
+ * Remove text-decoration of element
+ */
+
+@define-mixin noneDecoration {
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}

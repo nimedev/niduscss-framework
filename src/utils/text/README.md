@@ -26,15 +26,6 @@ styles.css:
 /* Other styles */
 ```
 
-Use mixins in css files
-
-```css
-label {
-  /* import ellipsis hack from text utils */
-  @mixin u-textEllipsis;
-}
-```
-
 Use in html files
 
 ```html

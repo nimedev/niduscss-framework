@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.1.0] - 2016-05-27
+
+### Removed
+- Remove noneDecoration mixin and move to mixins module.
+ 
 ## [1.0.1] - 2016-05-24 
 
 ### Added

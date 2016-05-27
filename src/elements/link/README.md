@@ -26,12 +26,4 @@ styles.css:
 /* Other styles */
 ```
 
-Use de mixin noneDecoration to remove link decoration of links:
-
-```css
-nav a {
-  @mixin noneDecoration;
-}
-```
-
 ## [Changelog](CHANGELOG.md)

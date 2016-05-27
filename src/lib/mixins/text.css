@@ -1,0 +1,9 @@
+/** Text mixins */
+
+/* Ellipsis hack */
+
+@define-mixin u-textEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

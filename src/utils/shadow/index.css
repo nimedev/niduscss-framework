@@ -1,10 +1,8 @@
 /** utility to implement shadows */
 
-/** Top shadow */
+@import "niduscss-lib-mixins";
 
-@define-mixin u-shadowTop {
-  box-shadow: 0 -0.25rem 0.25rem -0.25rem rgba(0, 0, 0, 0.5);
-}
+/** Top shadow */
 
 .u-shadowTop {
   @mixin u-shadowTop;
@@ -12,19 +10,11 @@
 
 /** Right shadow */
 
-@define-mixin u-shadowRight {
-  box-shadow: 0.25rem 0 0.25rem -0.25rem rgba(0, 0, 0, 0.5);
-}
-
 .u-shadowRight {
   @mixin u-shadowRight;
 }
 
 /** Bottom shadow */
-
-@define-mixin u-shadowBotton {
-  box-shadow: 0 0.25rem 0.25rem -0.25rem rgba(0, 0, 0, 0.5);
-}
 
 .u-shadowBotton {
   @mixin u-shadowBotton;
@@ -32,19 +22,11 @@
 
 /** Left shadow */
 
-@define-mixin u-shadowLeft {
-  box-shadow: -0.25rem 0 0.25rem -0.25rem rgba(0, 0, 0, 0.5);
-}
-
 .u-shadowLeft {
   @mixin u-shadowLeft;
 }
 
 /** Shadow frame level 1 */
-
-@define-mixin u-shadowFrame-1 {
-  box-shadow: 0 0.0625rem 0.1875rem 0 rgba(0, 0, 0, 0.2), 0 0.0625rem 0.0625rem 0 rgba(0, 0, 0, 0.14), 0 0.125rem 0.0625rem -0.0625rem rgba(0, 0, 0, 0.12);
-}
 
 .u-shadowFrame-1 {
   @mixin u-shadowFrame-1;
@@ -52,19 +34,11 @@
 
 /** Shadow frame level 2 */
 
-@define-mixin u-shadowFrame-2 {
-  box-shadow: 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.2), 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14), 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.12);
-}
-
 .u-shadowFrame-2 {
   @mixin u-shadowFrame-2;
 }
 
 /** Shadow frame level 3 */
-
-@define-mixin u-shadowFrame-3 {
-  box-shadow: 0 0.0625rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.1875rem 0.25rem 0 rgba(0, 0, 0, 0.14), 0 0.1875rem 0.1875rem -0.125rem rgba(0, 0, 0, 0.12);
-}
 
 .u-shadowFrame-3 {
   @mixin u-shadowFrame-3;
@@ -72,29 +46,17 @@
 
 /** Shadow frame level 4 */
 
-@define-mixin u-shadowFrame-4 {
-  box-shadow: 0 0.125rem 0.25rem -0.0625rem rgba(0, 0, 0, 0.2), 0 0.25rem 0.3125rem 0 rgba(0, 0, 0, 0.14), 0 0.0625rem 0.625rem 0 rgba(0, 0, 0, 0.12);
-}
-
 .u-shadowFrame-4 {
   @mixin u-shadowFrame-4;
 }
 
 /** Shadow frame level 5 */
 
-@define-mixin u-shadowFrame-5 {
-  box-shadow: 0 0.1875rem 0.3125rem -0.0625rem rgba(0, 0, 0, 0.2), 0 0.3125rem 0.5rem 0 rgba(0, 0, 0, 0.14), 0 0.0625rem 0.875rem 0 rgba(0, 0, 0, 0.12);
-}
-
 .u-shadowFrame-5 {
   @mixin u-shadowFrame-5;
 }
 
 /** Shadow frame level 6 */
-
-@define-mixin u-shadowFrame-6 {
-  box-shadow: 0 0.1875rem 0.3125rem -0.0625rem rgba(0, 0, 0, 0.2), 0 0.375rem 0.625rem 0 rgba(0, 0, 0, 0.14), 0 0.0625rem 1.125rem 0 rgba(0, 0, 0, 0.12);
-}
 
 .u-shadowFrame-6 {
   @mixin u-shadowFrame-6;

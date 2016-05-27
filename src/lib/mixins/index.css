@@ -1,15 +1,7 @@
-/** Common mixins for all app */
+/** Common mixins */
 
-/**
- * Create a @media querie with min-width
- *
-   @mixin respondTo --small-viewport {
-     height: 2rem;
-   }
- */
-
-@define-mixin respondTo $customMedia {
-  @media screen and ($customMedia) {
-    @mixin-content;
-  }
-}
+@import "align";
+@import "links";
+@import "responsive";
+@import "shadows";
+@import "text";

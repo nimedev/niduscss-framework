@@ -26,15 +26,6 @@ styles.css:
 /* Other styles */
 ```
 
-Use mixins in css files
-
-```css
-header {
-  /* Import mixin from shadow utils */
-  @mixin u-shadowRight;
-}
-```
-
 Use in html files
 
 ```html

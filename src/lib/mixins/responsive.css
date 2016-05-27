@@ -1,0 +1,17 @@
+/** Responsive mixins */
+
+/**
+ * Create a @media querie usign custom media queries.
+ *
+   @custom-media --small-viewport (min-width: 37.5rem);
+
+   @mixin respondTo --small-viewport {
+     height: 2rem;
+   }
+ */
+
+@define-mixin respondTo $customMedia {
+  @media screen and ($customMedia) {
+    @mixin-content;
+  }
+}
