@@ -60,6 +60,7 @@
 
     /* Positioning */
     position: absolute;
+    left: 0.75rem;
 
     /* Box-model */
     display: none;
@@ -80,6 +81,7 @@
      * add 'dd-right' class in ul element
      */
     &.dd-right {
+      left: auto;
       right: 0.75rem;
     }
 
