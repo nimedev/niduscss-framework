@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.4.0] - 2016-06-12
+
+### Added
+- Add --Dropdown-triger-width custom propertie to dropdown component.
+
 ## [1.3.0] - 2016-06-12
 
 ### Added

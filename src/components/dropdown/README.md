@@ -23,6 +23,7 @@ Example: create a setting.css file:
   --Dropdown-z-index: 8000;
   --Dropdown-checked-color: #fafafa;
   --Dropdown-pointer-color: #fafafa;
+  --Dropdown-triger-width: 3rem;
 }
 ```
 
@@ -59,5 +60,13 @@ Use in html files (angular component)
   </ul>
 </div>
 ```
+
+### Variations
+
+If use some of this class in `ul` element (Dropdown-list) you can change the dropdown direction:
+
+- `dd-pointer`: Put a poiter between triger button and the dropdown. (default: disabled).
+- `dd-right`: The dropdown start from left of triger button. (default: left).
+- `dd-up`: The dropdown start from the top of triger button. (default: down).
 
 ## [Changelog](CHANGELOG.md)
