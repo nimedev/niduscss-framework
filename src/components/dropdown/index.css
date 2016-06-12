@@ -103,7 +103,7 @@
         content: "";
         display: block;
         height: 0;
-        width: 1rem;
+        width: 0;
 
         /* Visual */
         border-color: transparent transparent var(--Dropdown-pointer-color, #fafafa) transparent;
@@ -116,6 +116,33 @@
     &.dd-pointer.dd-right {
       &::before {
         right: 0;
+      }
+    }
+
+    /**
+     * List from the top of the target element.
+     * add 'dd-up' class in ul element
+     */
+    &.dd-up {
+      /* Positioning */
+      bottom: 100%;
+
+      /* Position if have a pointer */
+      &.dd-pointer {
+        /* Positioning */
+        top: auto;
+        bottom: calc(100% + 0.75rem);
+
+        /* Move the pointer */
+        &::before {
+          /* Positioning */
+          top: auto;
+          bottom: -0.75rem;
+
+          /* Visual */
+          border-color: var(--Dropdown-pointer-color, #fafafa) transparent transparent transparent;
+          border-width: 0.75rem 0.75rem 0;
+        }
       }
     }
   }

@@ -1,9 +1,9 @@
 # Change Log
 
-## [1.3.0] - 2016-06-06
+## [1.3.0] - 2016-06-12
 
 ### Added
-- Add margin-top to siblings paragraphs in typography elements.
+- Add variation to dropdown component.
 
 ## [1.2.0] - 2016-05-27
 
