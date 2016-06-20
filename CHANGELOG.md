@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.5.1] - 2016-06-20
+
+### Fixed
+- Remove margin in sibling label of checkbox input in form module.
+
+
 ## [1.5.0] - 2016-06-17
 
 ### Added

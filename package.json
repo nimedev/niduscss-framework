@@ -1,6 +1,6 @@
 {
   "name": "niduscss-framework",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "A personal CSS framework to process with PostCSS",
   "style": "src/niduscss.css",
   "scripts": {
