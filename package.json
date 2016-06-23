@@ -1,6 +1,6 @@
 {
   "name": "niduscss-framework",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "description": "A personal CSS framework to process with PostCSS",
   "style": "src/niduscss.css",
   "scripts": {
@@ -29,7 +29,7 @@
   "devDependencies": {
     "eslint": "=2.13.1",
     "eslint-config-nimedev": "=1.0.0",
-    "stylelint": "=6.7.0",
+    "stylelint": "=6.7.1",
     "stylelint-config-nimedev": "=1.1.0"
   }
 }

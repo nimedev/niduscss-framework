@@ -32,6 +32,9 @@ Use in html files
 <!-- Block scroll in body element -->
 <body class="is-not-scrolling"></body>
 
+<!-- Hide the element -->
+<div class="is-hidden"></div>
+
 <!-- Change cursor to pointer in a div element -->
 <div class="is-clickable"></div>
 ```

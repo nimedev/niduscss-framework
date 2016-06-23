@@ -11,6 +11,14 @@
 }
 
 /**
+ * Hide the element.
+ */
+
+.is-hidden {
+  display: none !important;
+}
+
+/**
  * Block scroll when open dialog box or have this hook.
  */
 

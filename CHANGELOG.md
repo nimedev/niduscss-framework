@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.6.0] - 2016-06-23
+
+### Added
+- Add `is-hidden` class to hide elements in states module.
+
+### Updated
+- Update stylelint package.
+
+
 ## [1.5.2] - 2016-06-22
 
 ### Fixed
