@@ -29,15 +29,15 @@
   -webkit-font-smoothing: antialiased;
 }
 
-  .MaterialIcon--big {
-    font-size: 6rem;
-  }
+.MaterialIcon--big {
+  font-size: 6rem;
+}
 
-  .MaterialIcon--error {
-    /* Error color */
-    color: var(--MaterialIcon-error-color, #e57373);
-  }
+.MaterialIcon--error {
+  /* Error color */
+  color: var(--MaterialIcon-error-color, #e57373);
+}
 
-  .MaterialIcon--lighten {
-    color: #b3b3b3;
-  }
+.MaterialIcon--lighten {
+  color: #b3b3b3;
+}

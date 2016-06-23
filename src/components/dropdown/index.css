@@ -39,131 +39,131 @@
   }
 }
 
-  .Dropdown-label {
-    /* Click to expand button */
+.Dropdown-label {
+  /* Click to expand button */
 
-    /* Positioning */
-    position: relative;
+  /* Positioning */
+  position: relative;
 
-    /* Box-model */
-    display: inline-block;
-    margin: 0;
-    vertical-align: middle;
-    width: var(--Dropdown-label-width);
+  /* Box-model */
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  width: var(--Dropdown-label-width);
 
-    /* Tipography */
-    text-align: center;
+  /* Tipography */
+  text-align: center;
 
-    /* Visual */
-    cursor: pointer;
+  /* Visual */
+  cursor: pointer;
 
-    /* Misc */
-    user-select: none;
+  /* Misc */
+  user-select: none;
+}
+
+.Dropdown-list {
+  /* Dropdown menu start hidden */
+
+  /* Positioning */
+  position: absolute;
+  left: var(--Dropdown-pointerSize);
+
+  /* Box-model */
+  display: none;
+  margin: 0;
+  padding: 0;
+  min-width: 8rem;
+
+  /* Tipography */
+  text-align: left;
+
+  /* Visual */
+  list-style: none;
+  background-color: white;
+  box-shadow: 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.2), 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14), 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.12);
+
+  /**
+    * List from right of toggle button
+    * add 'dd-right' class in ul element
+    */
+  &.dd-right {
+    left: auto;
+    right: var(--Dropdown-pointerSize);
   }
 
-  .Dropdown-list {
-    /* Dropdown menu start hidden */
-
+  /**
+    * Menu with nice pointer
+    * add 'dd-pointer' class in ul element
+    */
+  &.dd-pointer {
     /* Positioning */
-    position: absolute;
-    left: var(--Dropdown-pointerSize);
+    top: calc(100% + var(--Dropdown-pointerSize));
 
-    /* Box-model */
-    display: none;
-    margin: 0;
-    padding: 0;
-    min-width: 8rem;
+    /* Add nice pointer :D */
+    &::before {
+      /* Positioning */
+      position: absolute;
+      top: -var(--Dropdown-pointerSize);
 
-    /* Tipography */
-    text-align: left;
+      /* Box-model */
+      content: "";
+      display: block;
+      height: 0;
+      width: 0;
 
-    /* Visual */
-    list-style: none;
-    background-color: white;
-    box-shadow: 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.2), 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14), 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.12);
-
-    /**
-     * List from right of toggle button
-     * add 'dd-right' class in ul element
-     */
-    &.dd-right {
-      left: auto;
-      right: var(--Dropdown-pointerSize);
+      /* Visual */
+      border-color: transparent transparent var(--Dropdown-pointer-color, #fafafa) transparent;
+      border-style: solid;
+      border-width: 0 var(--Dropdown-pointerSize) var(--Dropdown-pointerSize);
     }
+  }
 
-    /**
-     * Menu with nice pointer
-     * add 'dd-pointer' class in ul element
-     */
+  /* Move pointer to right */
+  &.dd-pointer.dd-right {
+    &::before {
+      right: 0;
+    }
+  }
+
+  /**
+    * List from the top of the target element.
+    * add 'dd-up' class in ul element
+    */
+  &.dd-up {
+    /* Positioning */
+    bottom: 100%;
+
+    /* Position if have a pointer */
     &.dd-pointer {
       /* Positioning */
-      top: calc(100% + var(--Dropdown-pointerSize));
+      top: auto;
+      bottom: calc(100% + var(--Dropdown-pointerSize));
 
-      /* Add nice pointer :D */
+      /* Move the pointer */
       &::before {
-        /* Positioning */
-        position: absolute;
-        top: -var(--Dropdown-pointerSize);
-
-        /* Box-model */
-        content: "";
-        display: block;
-        height: 0;
-        width: 0;
-
-        /* Visual */
-        border-color: transparent transparent var(--Dropdown-pointer-color, #fafafa) transparent;
-        border-style: solid;
-        border-width: 0 var(--Dropdown-pointerSize) var(--Dropdown-pointerSize);
-      }
-    }
-
-    /* Move pointer to right */
-    &.dd-pointer.dd-right {
-      &::before {
-        right: 0;
-      }
-    }
-
-    /**
-     * List from the top of the target element.
-     * add 'dd-up' class in ul element
-     */
-    &.dd-up {
-      /* Positioning */
-      bottom: 100%;
-
-      /* Position if have a pointer */
-      &.dd-pointer {
         /* Positioning */
         top: auto;
-        bottom: calc(100% + var(--Dropdown-pointerSize));
+        bottom: -var(--Dropdown-pointerSize);
 
-        /* Move the pointer */
-        &::before {
-          /* Positioning */
-          top: auto;
-          bottom: -var(--Dropdown-pointerSize);
-
-          /* Visual */
-          border-color: var(--Dropdown-pointer-color, #fafafa) transparent transparent transparent;
-          border-width: var(--Dropdown-pointerSize) var(--Dropdown-pointerSize) 0;
-        }
+        /* Visual */
+        border-color: var(--Dropdown-pointer-color, #fafafa) transparent transparent transparent;
+        border-width: var(--Dropdown-pointerSize) var(--Dropdown-pointerSize) 0;
       }
     }
   }
+}
 
-  .Dropdown-item {
-    /* Style of dropdown item */
+.Dropdown-item {
+  /* Style of dropdown item */
 
-    /* Box-model */
-    display: block;
-    padding: 0.5rem 1rem;
+  /* Box-model */
+  display: block;
+  padding: 0.5rem 1rem;
 
-    /* Tipography */
-    font-size: 1rem;
-    line-height: 1.25rem;
+  /* Tipography */
+  font-size: 1rem;
+  line-height: 1.25rem;
 
-    /* Visual */
-    cursor: pointer;
-  }
+  /* Visual */
+  cursor: pointer;
+}

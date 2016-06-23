@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.5.2] - 2016-06-22
+
+### Fixed
+- Fix to new rules of stylelint.
+
+
 ## [1.5.1] - 2016-06-20
 
 ### Fixed

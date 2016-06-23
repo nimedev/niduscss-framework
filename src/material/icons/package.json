@@ -1,6 +1,6 @@
 {
   "name": "niduscss-material-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Material design icons for niduscss framework",
   "style": "index.css",
   "scripts": {
