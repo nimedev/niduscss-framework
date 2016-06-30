@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.2.0] - 2016-06-30
+
+### Added
+- Add outline mixin.
+
+### Removed
+- Remove outline modification in link mixin.
+
+
 ## [1.1.1] - 2016-05-27
 
 ### Fixed

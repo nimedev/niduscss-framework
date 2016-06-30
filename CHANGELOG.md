@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.7.0] - 2016-06-30
+
+### Added
+- Add outline mixins to mixins module.
+
+
 ## [1.6.0] - 2016-06-23
 
 ### Added

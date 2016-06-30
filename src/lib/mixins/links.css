@@ -11,8 +11,4 @@
   &:active {
     text-decoration: none;
   }
-
-  &:focus {
-    outline: 0;
-  }
 }

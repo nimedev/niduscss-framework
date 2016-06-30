@@ -1,6 +1,6 @@
 {
   "name": "niduscss-utils-shadow",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Utilies to use shadows effects with css for niduscss framework",
   "style": "index.css",
   "scripts": {
@@ -29,6 +29,6 @@
     "node": ">=6.0.0 <7.0.0"
   },
   "dependencies": {
-    "niduscss-lib-mixins": "=1.1.1"
+    "niduscss-lib-mixins": "=1.2.0"
   }
 }
