@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.8.0] - 2016-07-04
+
+### Fixed
+- Fix bug in mixins module.
+
+### Removed
+- Remove dependency of mixins module in align, shadows and texts modules.
+
+
 ## [1.7.0] - 2016-06-30
 
 ### Added

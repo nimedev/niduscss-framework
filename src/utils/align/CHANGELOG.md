@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.3.0] - 2016-07-04
+
+### Removed
+- Remove dependency to mixins module.
+
+
 ## [1.2.0] - 2016-06-30
 
 ### Updated

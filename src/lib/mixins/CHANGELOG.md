@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.2.1] - 2016-07-04
+
+### Fixed
+- Fix bug that don't remove the decoration in links.
+
+
 ## [1.2.0] - 2016-06-30
 
 ### Added
