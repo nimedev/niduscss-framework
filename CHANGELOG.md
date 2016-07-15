@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.8.1] - 2016-07-15
+
+### Added
+- Add documentation in mixins module.
+
+
 ## [1.8.0] - 2016-07-04
 
 ### Fixed

@@ -50,6 +50,15 @@ nav a {
 }
 ```
 
+### outline mixins
+Remove outline of a element:
+
+```css
+button {
+  @mixin removeOutline;
+}
+```
+
 ### Responsive mixins
 
 ```css

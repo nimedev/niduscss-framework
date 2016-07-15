@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.2.2] - 2016-07-15
+
+### Added
+- Add outline mixins documentations.
+
+
 ## [1.2.1] - 2016-07-04
 
 ### Fixed
