@@ -76,7 +76,7 @@
   /* Box-model */
   display: none;
   margin: 0;
-  padding: 0;
+  padding: 0.25rem 0;
   min-width: 8rem;
 
   /* Tipography */

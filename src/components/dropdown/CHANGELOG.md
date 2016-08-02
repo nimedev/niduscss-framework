@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.4.1] - 2016-08-02
+
+### Added
+- Improve styles to Dropdown-list element.
+
+
 ## [1.4.0] - 2016-08-02
 
 ### Added

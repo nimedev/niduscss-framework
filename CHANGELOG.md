@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.9.2] - 2016-08-02
+
+### Added
+- Add styles to dropdown component.
+
+
 ## [1.9.1] - 2016-08-02
 
 ### Added
