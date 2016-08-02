@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.4.0] - 2016-08-02
+
+### Added
+- Add custom properties to more control of pointer and positioning.
+
+
 ## [1.3.0] - 2016-08-02
 
 ### Modified

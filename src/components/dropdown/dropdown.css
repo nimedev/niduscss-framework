@@ -7,11 +7,15 @@
  *    checked.
  *  --Dropdown-pointer-color: Modify color property when use nice pointer.
  *  --Dropdown-triger-width: Modify the width of the button that control the DD.
+ *  --Dropdown-pointer-size: Modify the size of pointer.
+ *  --Dropdown-list-gap: Distance between label edge and .Dropdown-list.
  */
 
 :root {
   --Dropdown-label-width: var(--Dropdown-triger-width, 3rem);
-  --Dropdown-pointerSize: calc(var(--Dropdown-triger-width) / 4);
+  --Dropdown-pointerSize: var(--Dropdown-pointer-size, 0.5rem);
+  --Dropdown-listGap: var(--Dropdown-list-gap, 0);
+  --Dropdown-pointerGap: calc(var(--Dropdown-label-width) / 2 - var(--Dropdown-pointerSize) - var(--Dropdown-listGap));
 }
 
 .Dropdown {
@@ -67,7 +71,7 @@
 .Dropdown-list {
   /* Positioning */
   position: absolute;
-  left: var(--Dropdown-pointerSize);
+  left: var(--Dropdown-listGap);
 
   /* Box-model */
   display: none;
@@ -88,8 +92,8 @@
     * add 'dd-right' class in ul element
     */
   &.dd-right {
+    right: var(--Dropdown-listGap);
     left: auto;
-    right: var(--Dropdown-pointerSize);
   }
 
   /**
@@ -105,6 +109,7 @@
       /* Positioning */
       position: absolute;
       top: -var(--Dropdown-pointerSize);
+      left: var(--Dropdown-pointerGap);
 
       /* Box-model */
       content: "";
@@ -122,7 +127,8 @@
   /* Move pointer to right */
   &.dd-pointer.dd-right {
     &::before {
-      right: 0;
+      right: var(--Dropdown-pointerGap);
+      left: auto;
     }
   }
 

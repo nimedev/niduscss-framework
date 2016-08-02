@@ -24,6 +24,8 @@ Example: create a setting.css file:
   --Dropdown-checked-color: #fafafa;
   --Dropdown-pointer-color: #fafafa;
   --Dropdown-triger-width: 3rem;
+  --Dropdown-pointer-size: 0.75rem;
+  --Dropdown-list-gap: 0.5rem;
 }
 ```
 

@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.9.1] - 2016-08-02
+
+### Added
+- Add custom properties to more control in dropdown component.
+
+
 ## [1.9.0] - 2016-08-02
 
 ### Modified
@@ -60,7 +66,7 @@
 ## [1.4.0] - 2016-06-12
 
 ### Added
-- Add --Dropdown-triger-width custom propertie to dropdown component.
+- Add --Dropdown-triger-width custom properties to dropdown component.
 
 
 ## [1.3.0] - 2016-06-12
