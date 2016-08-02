@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.10.0] - 2016-08-02
+
+### Modified
+- Modify link mixins in lib module.
+
+
 ## [1.9.2] - 2016-08-02
 
 ### Added

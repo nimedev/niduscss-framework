@@ -1,15 +1,18 @@
 /** Mixins for links */
 
 /**
- * Remove text-decoration of element
+ * Special to homogenize a link element.
+ * To change color use a parent element of the link.
  */
 
-@define-mixin noneDecoration {
+@define-mixin homogenizeLink {
   &,
   &:link,
   &:visited,
   &:hover,
   &:active {
+    color: inherit;
+    outline: 0;
     text-decoration: none;
   }
 }

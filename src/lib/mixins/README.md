@@ -42,11 +42,17 @@ styles.css:
 ```
 
 ### Link mixins
-Use de mixin noneDecoration to remove link decoration of links:
+Use the mixin homogenizeLink to homogenize a link element. To change color use a parent element of the link:
 
 ```css
+/* Change the color of link */
+nav {
+  color: salmon;
+}
+
+/* Homogenize the link elements inside a nav */
 nav a {
-  @mixin noneDecoration;
+  @mixin homogenizeLink;
 }
 ```
 
