@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.3.0] - 2016-08-02
+
+### Modified
+- Change file structure.
+- Improve dropdown label.
+
+
 ## [1.2.2] - 2016-06-22
 
 ### Updated

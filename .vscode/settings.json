@@ -1,0 +1,49 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+// Editor
+  
+  // Controls the rendering size of tabs in characters. Accepted values: "auto", 2, 4, 6, etc. If set to "auto", the value will be guessed when a file is opened.
+	"editor.tabSize": 2,
+
+ 
+// Files
+
+	// Configure file associations to languages (e.g. "*.extension": "html"). These have precedence over the default associations of the languages installed.
+	"files.associations": {
+		"*.css": "scss"
+	},
+	
+	
+// CSS
+
+	// Enables or disables all validations
+	"css.validate": false,
+
+
+// SCSS (Sass)
+
+	// Enables or disables all validations
+  "scss.validate": false,
+
+
+// LESS
+
+	// Enables or disables all validations
+	"less.validate": false,
+
+
+// HTML
+
+	// Maximum amount of characters per line (0 = disable).
+	"html.format.wrapLineLength": 0,
+
+// stylelint configuration options
+
+  // Control whether stylelint is enabled for CSS/SCSS/Less files or not.
+  "stylelint.enable": true,
+
+// ESLint configuration
+
+  // Control whether eslint is enabled for JavaScript files or not.
+  "eslint.enable": true
+}

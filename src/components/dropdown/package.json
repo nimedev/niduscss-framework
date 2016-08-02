@@ -1,6 +1,6 @@
 {
   "name": "niduscss-components-dropdown",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Base styles to create dropdown components for niduscss framework",
   "style": "index.css",
   "scripts": {

@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.9.0] - 2016-08-02
+
+### Modified
+- Improve label in dropdown componet.
+
+### Updated
+- Upgrade eslint and stylelint dependencies.
+
+
 ## [1.8.1] - 2016-07-15
 
 ### Added
