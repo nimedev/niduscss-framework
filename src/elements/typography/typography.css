@@ -1,0 +1,132 @@
+/**
+ * Reset for elements related with texts
+ * This module use custom properties that need defined in some place.
+ * Custom properties (related width font-size):
+ *  --Link-fs-xxsmall
+ *  --Link-fs-xsmall
+ *  --Link-fs-small
+ *  --Link-fs-normal
+ *  --Link-fs-medium
+ *  --Link-fs-big
+ *  --Link-fs-huge
+ *  --Link-fs-extreme
+ *  --Link-fs-xextreme
+ */
+
+:root {
+  --Heading-font: inherit;
+  --Heading-font-weight: normal;
+  --Heading-font-color: inherit;
+}
+
+/* Headings
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Box-model */
+  margin: 0 0 0.75rem;
+
+  /* Typography */
+  line-height: normal;
+  font-family: var(--Heading-font);
+  font-weight: var(--Heading-font-weight);
+  color: var(--Heading-font-color);
+  text-rendering: optimizelegibility;
+
+  /* Alt heading */
+  &.Heading--alt {
+    color: #808080;
+    text-transform: uppercase;
+  }
+}
+
+/* Heading sizes accourding with font size in properties file. h4 is normal.
+   ========================================================================== */
+
+h1 {
+  font-size: var(--Link-fs-huge, 2.125rem);
+}
+
+h2 {
+  font-size: var(--Link-fs-big, 1.5rem);
+}
+
+h3 {
+  font-size: var(--Link-fs-medium, 1.25rem);
+}
+
+h4 {
+  font-size: var(--Link-fs-normal, 1rem);
+}
+
+h5 {
+  font-size: var(--Link-fs-small, 0.875rem);
+}
+
+h6 {
+  font-size: var(--Link-fs-xsmall, 0.75rem);
+}
+
+/* small element
+   ========================================================================== */
+
+small {
+  font-size: var(--Link-fs-xsmall, 0.75rem);
+  color: #808080;
+}
+
+/* pharagraphs
+   ========================================================================== */
+
+p + p {
+  margin-top: 1rem;
+}
+
+/* Font size
+   ========================================================================== */
+
+/**
+ * Create classes for each font sizes according to properties file.
+ * Properties file is a file where set all custom properties for the app.
+ */
+
+.Font--xxsmall {
+  font-size: var(--Link-fs-xxsmall, 0.625rem);
+}
+
+.Font--xsmall {
+  font-size: var(--Link-fs-xsmall, 0.75rem);
+}
+
+.Font--small {
+  font-size: var(--Link-fs-small, 0.875rem);
+}
+
+.Font--normal {
+  font-size: var(--Link-fs-normal, 1rem);
+}
+
+.Font--medium {
+  font-size: var(--Link-fs-medium, 1.25rem);
+}
+
+.Font--big {
+  font-size: var(--Link-fs-big, 1.5rem);
+}
+
+.Font--huge {
+  font-size: var(--Link-fs-huge, 2.125rem);
+}
+
+.Font--extreme {
+  font-size: var(--Link-fs-extreme, 2.8125rem);
+}
+
+.Font--xextreme {
+  font-size: var(--Link-fs-xextreme, 3.5rem);
+}

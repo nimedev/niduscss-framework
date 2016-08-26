@@ -22,7 +22,6 @@ Example: create a setting.css file:
 :root {
   --Form-textcolor: #262626;
   --Form-basefont: Lato, Helvetica, "Roboto Slab", "Droid Serif", "Segoe UI Bold", sans-serif;
-  --Form-fs-xsmall: 0.75rem;
   --Form-fs-small: 0.875rem;
   --Form-fs-normal: 1rem;
   --Form-border-clr: #2196f3;

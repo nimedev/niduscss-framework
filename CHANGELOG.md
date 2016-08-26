@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.10.1] - 2016-08-26
+
+### Modified
+- Remove some classe in form module.
+- Change module index in elements modules.
+
+
 ## [1.10.0] - 2016-08-02
 
 ### Modified

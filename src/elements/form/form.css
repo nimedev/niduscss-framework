@@ -1,0 +1,185 @@
+/**
+ * Reset values for form and related elements
+ * This module use custom properties that need defined in some place.
+ * Custom properties:
+ *  --Form-textcolor
+ *  --Form-basefont
+ *  --Form-fs-xsmall
+ *  --Form-fs-small
+ *  --Form-fs-normal
+ *  --Form-border-clr
+ *  --Form-warn-clr
+ */
+
+:root {
+  /* Form */
+  --Form-radius: 0;
+
+  /* Input elements */
+  --Form-input-height: 2.25rem;
+  --Form-input-background: #fff;
+  --Form-input-border: 0.0625rem solid #d9d9d9;
+  --Form-input-hover: #808080;
+}
+
+/* Form element
+   ========================================================================== */
+
+form {
+  margin: 0;
+}
+
+/* Elements used in forms
+   ========================================================================== */
+
+label,
+input,
+button,
+select,
+textarea {
+  font-size: var(--Form-fs-normal, 1rem);
+  border-radius: var(--Form-radius);
+  vertical-align: baseline;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: var(--Form-basefont, Lato);
+  box-sizing: border-box;
+}
+
+label,
+.label {
+  display: inline-block;
+  margin-bottom: 0.1875rem;
+  color: var(--Form-textcolor, #262626);
+  cursor: pointer;
+
+  input,
+  textarea,
+  select {
+    display: block;
+  }
+}
+
+input,
+textarea,
+select {
+  /* Box-model */
+  display: inline-block;
+  padding: 0 0.25rem;
+  width: 100%;
+  height: var(--Form-input-height);
+  line-height: var(--Form-input-height);
+
+  /* Visual */
+  background-color: var(--Form-input-background);
+  border: var(--Form-input-border);
+  color: var(--Form-textcolor, #262626);
+  outline: none;
+  appearance: none;
+
+  /* Hover */
+  &:hover {
+    border-color: var(--Form-input-hover);
+  }
+}
+
+textarea {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: 0.75rem;
+  height: 0.75rem;
+  padding: 0;
+  margin: 0 0.1875rem 0 0;
+  line-height: normal;
+  cursor: pointer;
+  background-color: #fff;
+
+  &:checked {
+    background-color: #606060;
+    border-color: #fff;
+    border-width: 0.0625rem;
+    box-shadow: 0 0 0 0.0625rem #606060;
+  }
+}
+
+input[type="radio"] {
+  border-radius: 100%;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 0 !important;
+  appearance: none;
+}
+
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+textarea {
+  resize: vertical;
+  height: auto;
+  overflow: auto;
+  vertical-align: top;
+}
+
+input[type="hidden"] {
+  display: none;
+}
+
+/* When elements are disabled */
+
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* focus and active */
+
+input:focus,
+textarea:focus {
+  border-color: var(--Form-border-clr, #2196f3);
+  outline: 0;
+  outline: thin dotted \9;
+}
+
+::-webkit-input-placeholder {
+  font-size: var(--Form-fs-small, 0.875rem);
+}
+
+input:-moz-placeholder {
+  font-size: var(--Form-fs-small, 0.875rem);
+}
+
+/* Validations
+   ========================================================================== */
+
+/**
+ * Validate required form:
+ * http://coolvillage.es/ayuda-al-usuario-a-rellenar-formularios-con-css/
+ */
+
+input:required:focus:invalid {
+  border: 0.0625rem solid var(--Form-warn-clr, #f44336);
+}
+
+input:required:focus:valid {
+  border: 0.0625rem solid var(--Form-border-clr, #2196f3);
+}

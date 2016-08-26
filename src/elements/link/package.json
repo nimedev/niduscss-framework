@@ -1,6 +1,6 @@
 {
   "name": "niduscss-elements-link",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Default style used in links elements for niduscss framework",
   "style": "index.css",
   "scripts": {
