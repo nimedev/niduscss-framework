@@ -1,6 +1,6 @@
 {
   "name": "niduscss-utils-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Color utilies for niduscss framework",
   "style": "index.css",
   "scripts": {

@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.11.0] - 2016-09-08
+
+### Added
+- Add classes for flexbox items in utils modules.
+
+### Modified
+- Change module index in utils modules.
+
+
 ## [1.10.1] - 2016-08-26
 
 ### Modified

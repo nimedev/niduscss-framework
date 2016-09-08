@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.1] - 2016-09-08
+
+### Modified
+- Change module index.
+
+
 ## [1.1.0] - 2016-06-23
 
 ### Added

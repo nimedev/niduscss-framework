@@ -1,15 +1,1 @@
-/** Animations utilities */
-
-/**
- * Animation used when show a element
- */
-
-@keyframes u-anim-opacityShow {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
+@import "./animation";

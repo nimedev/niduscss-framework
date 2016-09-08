@@ -1,6 +1,6 @@
 {
   "name": "niduscss-utils-flex",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Flexbox utilies for niduscss framework",
   "style": "index.css",
   "scripts": {
