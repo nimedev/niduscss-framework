@@ -14,7 +14,7 @@
 
 /** Bottom shadow */
 
-@define-mixin u-shadowBotton {
+@define-mixin u-shadowBottom {
   box-shadow: 0 0.25rem 0.25rem -0.25rem rgba(0, 0, 0, 0.5);
 }
 

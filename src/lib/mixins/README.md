@@ -82,7 +82,7 @@ button {
 ```css
 header {
   /* Import the mixin */
-  @mixin u-shadowRight;
+  @mixin u-shadowBottom;
 }
 ```
 

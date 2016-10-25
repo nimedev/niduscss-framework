@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.4.0] - 2016-10-25
+
+### Modified
+- Fix u-shadowBottom class name.
+
+
 ## [1.3.0] - 2016-08-02
 
 ### Added

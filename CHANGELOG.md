@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.12.0] - 2016-10-25
+
+### Modified
+- Change a class name in mixins module.
+- Use yarn package manager.
+
+### Updated
+- Upgrade eslint-config-nimedev, eslint and stylelint.
+
+
 ## [1.11.0] - 2016-09-08
 
 ### Added
