@@ -25,7 +25,6 @@ Example: create a setting.css file:
   --Form-fs-small: 0.875rem;
   --Form-fs-normal: 1rem;
   --Form-border-clr: #2196f3;
-  --Form-warn-clr: #f44336;
 }
 ```
 

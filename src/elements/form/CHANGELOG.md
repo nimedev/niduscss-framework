@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.3.0] - 2016-10-26
+
+### Deleted
+- Remove styles for validations.
+
+
 ## [1.2.0] - 2016-06-20
 
 ### Modified

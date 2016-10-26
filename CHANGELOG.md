@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.13.0] - 2016-10-26
+
+### Removed
+- Remove some styles in form module.
+
+
 ## [1.12.0] - 2016-10-25
 
 ### Modified

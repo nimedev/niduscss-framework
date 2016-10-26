@@ -4,11 +4,9 @@
  * Custom properties:
  *  --Form-textcolor
  *  --Form-basefont
- *  --Form-fs-xsmall
  *  --Form-fs-small
  *  --Form-fs-normal
  *  --Form-border-clr
- *  --Form-warn-clr
  */
 
 :root {
@@ -166,20 +164,4 @@ textarea:focus {
 
 input:-moz-placeholder {
   font-size: var(--Form-fs-small, 0.875rem);
-}
-
-/* Validations
-   ========================================================================== */
-
-/**
- * Validate required form:
- * http://coolvillage.es/ayuda-al-usuario-a-rellenar-formularios-con-css/
- */
-
-input:required:focus:invalid {
-  border: 0.0625rem solid var(--Form-warn-clr, #f44336);
-}
-
-input:required:focus:valid {
-  border: 0.0625rem solid var(--Form-border-clr, #2196f3);
 }
