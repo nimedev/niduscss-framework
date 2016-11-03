@@ -1,15 +1,21 @@
 {
-  "name": "niduscss-framework",
-  "version": "1.14.0",
-  "description": "A personal CSS framework to process with PostCSS",
-  "style": "src/niduscss.css",
+  "name": "niduscss-components-table",
+  "version": "1.0.0",
+  "description": "Styles for tables elements",
+  "style": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nimedev/niduscss-framework"
   },
   "keywords": [
     "css",
-    "postcss"
+    "postcss",
+    "css tables",
+    "style tables",
+    "pure css"
   ],
   "author": {
     "name": "Nicolas Mejia",
@@ -22,11 +28,5 @@
   "homepage": "https://github.com/nimedev/niduscss-framework",
   "engines": {
     "node": ">=6.0.0 <7.0.0"
-  },
-  "devDependencies": {
-    "eslint": "3.9.1",
-    "eslint-config-nimedev": "3.1.0",
-    "stylelint": "7.5.0",
-    "stylelint-config-nimedev": "7.0.0"
   }
 }

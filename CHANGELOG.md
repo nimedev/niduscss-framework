@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.14.0] - 2016-11-03
+
+### Added
+- Add table component.
+
+### Updated
+- Upgrade eslint.
+
+
 ## [1.13.0] - 2016-10-26
 
 ### Removed
