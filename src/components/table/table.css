@@ -5,9 +5,6 @@
 }
 
 .Table {
-  /* Box-model */
-  overflow-x: auto;
-
   /* Visual */
   background-color: #fff;
 
@@ -19,8 +16,7 @@
     border-collapse: collapse;
   }
 
-  thead tr,
-  tfoot tr {
+  thead tr {
     /* Box-model */
     height: 3.5rem;
 
@@ -37,11 +33,6 @@
     /* Typography */
     color: rgba(0, 0, 0, 0.87);
     font-size: 0.8125rem;
-  }
-
-  tfoot tr {
-    /* Box-model */
-    height: 2.5rem;
   }
 
   /* Add border to rows */
@@ -91,6 +82,24 @@
   /* Typography */
   color: rgba(0, 0, 0, 0.87);
   font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.Table-content {
+  /* Box-model */
+  overflow-x: auto;
+}
+
+.Table-footer {
+  /* Box-model */
+  display: flex;
+  align-items: center;
+  padding: 0 0.875rem 0 1.5rem;
+  height: 3.5rem;
+
+  /* Typography */
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.75rem;
   font-weight: normal;
 }
 

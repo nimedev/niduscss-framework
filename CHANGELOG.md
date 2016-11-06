@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.0] - 2016-11-05
+
+### Modified
+- Change layout in table componet.
+
+
 ## [1.14.0] - 2016-11-03
 
 ### Added
