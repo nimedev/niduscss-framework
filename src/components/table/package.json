@@ -1,6 +1,6 @@
 {
   "name": "niduscss-components-table",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Styles for tables elements",
   "style": "index.css",
   "scripts": {
