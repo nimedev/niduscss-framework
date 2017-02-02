@@ -1,0 +1,31 @@
+{
+  "name": "stylelint-config-niduscss",
+  "version": "1.0.0",
+  "description": "Stylelint shareable config for niduscss framework style guide",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/niduscss-framework"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint config",
+    "css",
+    "style guide",
+    "css linter",
+    "css style"
+  ],
+  "author": "Nicolás Mejía Correa <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/niduscss-framework/issues"
+  },
+  "homepage": "https://github.com/nimedev/niduscss-framework",
+  "engines": {
+    "npm": ">=3.10",
+    "node": ">=6.9 <7.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.8.0"
+  }
+}
