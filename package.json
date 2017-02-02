@@ -2,7 +2,14 @@
   "name": "niduscss-framework",
   "version": "2.1.0",
   "description": "A personal CSS framework to process with PostCSS",
-  "style": "src/niduscss.css",
+  "scripts": {
+    "lint": "npm run lint:css && npm run lint:js",
+    "lint:css": "stylelint 'src/**/*.css'",
+    "lint:js": "eslint . --ext js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/nimedev/niduscss-framework"
@@ -11,22 +18,27 @@
     "css",
     "postcss"
   ],
-  "author": {
-    "name": "Nicolas Mejia",
-    "email": "nimedev@gmail.com"
-  },
+  "author": "Nicolás Mejía Correa <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nimedev/niduscss-framework/issues"
   },
   "homepage": "https://github.com/nimedev/niduscss-framework",
   "engines": {
-    "node": ">=6.0.0 <7.0.0"
+    "npm": ">=3.10",
+    "node": ">=6.9 <7.0.0"
   },
   "devDependencies": {
-    "eslint": "3.10.2",
-    "eslint-config-nimedev": "3.1.0",
-    "stylelint": "7.6.0",
-    "stylelint-config-nimedev": "7.0.0"
+    "eslint": "3.14.1",
+    "eslint-config-nimedev-base": "2.4.1",
+    "eslint-plugin-import": "2.2.0",
+    "pre-commit": "1.2.2",
+    "stylelint": "7.8.0"
+  },
+  "eslintConfig": {
+    "extends": "nimedev-base"
+  },
+  "stylelint": {
+    "extends": "./packages/stylelint-config-niduscss"
   }
 }

@@ -1,5 +1,15 @@
 # Change Log
 
+## [2.2.0] - 2017-02-02
+
+### Added
+- Implement stylelint-config-niduscss shareable config package.
+- Add style guide documentation.
+
+### Updated
+- Upgrade devDep: eslint and stylelint.
+
+
 ## [2.1.0] - 2016-11-19
 
 ### Modified

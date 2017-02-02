@@ -2,6 +2,11 @@
 
 > A modular CSS framework to process with PostCSS
 
+## Style Guide
+[NidusCSS Style Guide](docs/style-guide.md)
+
+[stylelint shareable config](packages/stylelint-config-niduscss/README.md)
+
 ## Modules
 The modules are divided by sections:
 
