@@ -4,8 +4,8 @@
 
 ## Modules
 - [align](align/README.md)
-- [animations](animations/README.md)
-- [buttons-group](buttons-group/README.md)
+- [animation](animation/README.md)
+- [buttons](buttons/README.md)
 - [color](color/README.md)
 - [flex](flex/README.md)
 - [shadow](shadow/README.md)

@@ -19,7 +19,7 @@
     margin: 0;
   }
 
-  /** Buttons inside of u-labelButtonsGroup */
+  /** Button inside of u-labelButtonGroup */
   &-btn {
     /* Tipography */
     font-size: var(--u-Buttons-fs-medium, 1.25rem);
