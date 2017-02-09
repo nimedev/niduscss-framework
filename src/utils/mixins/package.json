@@ -1,0 +1,27 @@
+{
+  "name": "niduscss-utils-mixins",
+  "version": "1.0.0",
+  "description": "Mixins for utils modules of niduscss framework",
+  "style": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimedev/niduscss-framework"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "css mixins",
+    "vertical align",
+    "css shadows",
+    "ellipsis hack"
+  ],
+  "author": "Nicolás Mejía Correa <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimedev/niduscss-framework/issues"
+  },
+  "homepage": "https://github.com/nimedev/niduscss-framework",
+  "engines": {
+    "node": ">=6.0.0 <7.0.0"
+  }
+}
