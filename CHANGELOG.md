@@ -1,5 +1,11 @@
 # Change Log
 
+## [3.0.0] - 2017-02-09
+
+### Modified
+- Rename and update niduscss-libs-mixins module.
+
+
 ## [2.2.0] - 2017-02-02
 
 ### Added
