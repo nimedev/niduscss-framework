@@ -1,11 +1,8 @@
 {
   "name": "niduscss-material-icons",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Material design icons for niduscss framework",
   "style": "index.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nimedev/niduscss-framework"
@@ -19,10 +16,7 @@
     "material icons",
     "css icons"
   ],
-  "author": {
-    "name": "Nicolas Mejia",
-    "email": "nimedev@gmail.com"
-  },
+  "author": "Nicolás Mejía Correa <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nimedev/niduscss-framework/issues"
@@ -30,5 +24,8 @@
   "homepage": "https://github.com/nimedev/niduscss-framework",
   "engines": {
     "node": ">=6.0.0 <7.0.0"
+  },
+  "dependencies": {
+    "niduscss-material-mixins": "1.0.0"
   }
 }

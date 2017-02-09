@@ -1,0 +1,33 @@
+/**
+ * Material design icons
+ *
+ * Custom properties:
+ * --MaterialIcon-src: src property of @font-face
+ * --MaterialIcon-error-color: Color for error icons.
+ */
+
+@import "niduscss-material-mixins";
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: normal;
+  src: var(--MaterialIcon-src, local("Material Icons"), local("MaterialIcons-Regular"), url("https://fonts.gstatic.com/s/materialicons/v16/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2") format("woff2"));
+}
+
+.MaterialIcon {
+  @mixin materialIcon;
+}
+
+.MaterialIcon--big {
+  font-size: 6rem;
+}
+
+.MaterialIcon--error {
+  /* Error color */
+  color: var(--MaterialIcon-error-color, #e57373);
+}
+
+.MaterialIcon--lighten {
+  color: #b3b3b3;
+}

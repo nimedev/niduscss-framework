@@ -6,11 +6,13 @@
 
 > Material design icons for niduscss framework.
 
+
 ## Installation
 
 ```console
 $ npm install niduscss-material-icons
 ```
+
 
 ## Usage
 
@@ -33,7 +35,7 @@ styles.css:
 /* Import first de file with custom properties or declare before import the
    component.
    ========================================================================== */
-   
+
 @import "settings";
 
 /* Material components
@@ -58,5 +60,6 @@ Use in html files
 <!-- Lighten icon -->
 <div class="MaterialIcon MaterialIcon--lighten">save</div>
 ```
+
 
 ## [Changelog](CHANGELOG.md)
