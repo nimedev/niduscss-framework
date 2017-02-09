@@ -1,11 +1,13 @@
-/** Texts utilities */
+/**
+ * Texts utilities
+ */
+
+@import "niduscss-utils-mixins";
 
 /**
  * Ellipsis hack
  */
 
 .u-textEllipsis {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  @mixin u-textEllipsis;
 }

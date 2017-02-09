@@ -6,11 +6,13 @@
 
 > Text utilies for niduscss framework.
 
+
 ## Installation
 
 ```console
 $ npm install niduscss-utils-text
 ```
+
 
 ## Usage
 
@@ -31,5 +33,6 @@ Use in html files
 ```html
 <h3 class="u-textEllipsis">Heading</h3>
 ```
+
 
 ## [Changelog](CHANGELOG.md)

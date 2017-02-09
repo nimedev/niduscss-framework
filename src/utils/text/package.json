@@ -1,11 +1,8 @@
 {
   "name": "niduscss-utils-text",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "Text utilies for niduscss framework",
   "style": "index.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nimedev/niduscss-framework"
@@ -16,10 +13,7 @@
     "css text",
     "ellipsis hack"
   ],
-  "author": {
-    "name": "Nicolas Mejia",
-    "email": "nimedev@gmail.com"
-  },
+  "author": "Nicolás Mejía Correa <nicolasmejiaco@gmail.com> (https://twitter.com/nimedev)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nimedev/niduscss-framework/issues"
@@ -27,5 +21,8 @@
   "homepage": "https://github.com/nimedev/niduscss-framework",
   "engines": {
     "node": ">=6.0.0 <7.0.0"
+  },
+  "dependencies": {
+    "niduscss-utils-mixins": "1.0.0"
   }
 }

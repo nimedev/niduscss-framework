@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.4.0] - 2017-02-09
+
+### Added
+- Use niduscss-utils-mixins module to create the classes.
+
+
 ## [1.3.2] - 2016-09-08
 
 ### Modified
@@ -36,6 +42,6 @@
 - Remove module mixins and move to niduscss-lib-mixins module.
 
 
-## [1.0.0] - 2016-05-25 
+## [1.0.0] - 2016-05-25
 
 * Initial release.
