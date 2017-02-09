@@ -6,11 +6,13 @@
 
 > Vertical align utilies for niduscss framework.
 
+
 ## Installation
 
 ```console
 $ npm install niduscss-utils-align
 ```
+
 
 ## Usage
 
@@ -34,5 +36,6 @@ Use in html files
   <span class="u-alignItem--centered">item 2</span>
 </div>
 ```
+
 
 ## [Changelog](CHANGELOG.md)

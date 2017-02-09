@@ -8,6 +8,7 @@
 - [buttons](buttons/README.md)
 - [color](color/README.md)
 - [flex](flex/README.md)
+- [mixins](mixins/README.md)
 - [shadow](shadow/README.md)
 - [state](state/README.md)
 - [text](text/README.md)

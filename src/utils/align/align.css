@@ -1,4 +1,8 @@
-/** Vertical align utilies */
+/**
+ * Vertical align utilies
+ */
+
+@import "niduscss-utils-mixins";
 
 /**
  * INLINE VERTICAL CENTERING
@@ -6,24 +10,13 @@
  */
 
 .u-alignContainer {
-  /* Tipography */
-  font-size: 0;
-
-  /**
-   * May want to do this if there is risk the container may be narrower than
-   * the element inside
-   */
-  white-space: nowrap;
+  @mixin u-alignContainer;
 }
 
 /* The ghost, nudged to maintain perfect centering */
 
 .u-alignContainer::before {
-  /* Box-model */
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+  @mixin u-alignGhost;
 }
 
 /* The element to be centered, can also be of any width and height */

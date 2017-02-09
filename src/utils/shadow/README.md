@@ -6,11 +6,13 @@
 
 > Utilies to use shadows effects with css for niduscss framework.
 
+
 ## Installation
 
 ```console
 $ npm install niduscss-utils-shadow
 ```
+
 
 ## Usage
 
@@ -35,5 +37,6 @@ Use in html files
 <!-- Shadow frame level 2 -->
 <div class="u-shadowFrame-2"></div>
 ```
+
 
 ## [Changelog](CHANGELOG.md)
