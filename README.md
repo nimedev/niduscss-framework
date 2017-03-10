@@ -6,18 +6,17 @@
 ## Style Guide
 [NidusCSS Style Guide](docs/style-guide.md)
 
-[stylelint shareable config](packages/stylelint-config-niduscss/README.md)
-
 
 ## Modules
 The modules are divided by sections:
 
-- [base](src/base/README.md)
-- [components](src/components/README.md)
-- [elements](src/elements/README.md)
-- [libs](src/libs/README.md)
-- [material](src/material/README.md)
-- [utils](src/utils/README.md)
+- [base](packages/base/README.md)
+- [components](packages/components/README.md)
+- [elements](packages/elements/README.md)
+- [libs](packages/libs/README.md)
+- [material](packages/material/README.md)
+- [utils](packages/utils/README.md)
+- [stylelint shareable config](packages/stylelint-config-niduscss/README.md)
 
 
 ## [Changelog](CHANGELOG.md)
