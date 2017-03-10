@@ -1,6 +1,6 @@
 {
   "name": "niduscss-components-icon-button",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Base styles to create icon buttons for niduscss framework",
   "style": "index.css",
   "scripts": {

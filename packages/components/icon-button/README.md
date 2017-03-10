@@ -32,7 +32,7 @@ styles.css:
 /* Import first de file with custom properties or declare before import the
    component.
    ========================================================================== */
-   
+
 @import "settings";
 
 /* Components
