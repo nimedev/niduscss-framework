@@ -1,5 +1,11 @@
 # Change Log
 
+## [4.0.0] - 2017-03-10
+
+### Modified
+- Update niduscss-components-icon-button and niduscss-components-table modules.
+
+
 ## [3.0.0] - 2017-02-09
 
 ### Modified
