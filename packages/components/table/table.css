@@ -109,4 +109,10 @@
 
   /* Typography */
   color: rgba(0, 0, 0, 0.54);
+
+  /* Color for svg icons */
+  svg& {
+    /* Visual */
+    fill: rgba(0, 0, 0, 0.54);
+  }
 }
