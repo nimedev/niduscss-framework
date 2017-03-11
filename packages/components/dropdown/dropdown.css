@@ -52,7 +52,6 @@
   /* Box-model */
   display: inline-block;
   margin: 0;
-  vertical-align: middle;
   width: var(--Dropdown-label-width);
 
   /* Tipography */

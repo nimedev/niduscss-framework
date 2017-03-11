@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.0] - 2017-03-11
+
+### Deleted
+- Delete vertical-align attribute from Dropdown-label class.
+
+
 ## [1.4.1] - 2016-08-02
 
 ### Added
@@ -47,11 +53,11 @@
 
 
 ## [1.0.1] - 2016-05-24
- 
+
 ### Added
 - Set default values to custom properties..
 
 
-## [1.0.0] - 2016-05-24 
+## [1.0.0] - 2016-05-24
 
 * Initial release.
