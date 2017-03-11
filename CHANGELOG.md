@@ -1,5 +1,14 @@
 # Change Log
 
+## [5.0.0] - 2017-03-11
+
+### Deleted
+- Remove colors modules in utils section.
+
+### Fixed
+- Fix fab link in material section.
+
+
 ## [4.0.0] - 2017-03-10
 
 ### Modified
