@@ -6,11 +6,13 @@
 
 > Button CSS styles for niduscss framework.
 
+
 ## Installation
 
 ```console
 $ npm install niduscss-components-button
 ```
+
 
 ## Usage
 
@@ -38,7 +40,7 @@ styles.css:
 /* Import first de file with custom properties or declare before import the
    component.
    ========================================================================== */
-   
+
 @import "settings";
 
 /* Components
@@ -52,19 +54,23 @@ Use in html files
 
 ```html
 <!-- Normal Button -->
-<div class="Button">Button</div>
+<button class="Button">Button</button>
+
+<!-- Link Button -->
+<a class="Button">Link Button</a>
 
 <!-- Mini Button -->
-<div class="Button Button--mini">Mini</div>
+<button class="Button Button--mini">Mini</button>
 
 <!-- Small Button -->
-<div class="Button Button--small">Small</div>
+<button class="Button Button--small">Small</button>
 
 <!-- Huge Button -->
-<div class="Button Button--huge">Huge</div>
+<button class="Button Button--huge">Huge</button>
 
 <!-- Extreme Button -->
-<div class="Button Button--extreme">Extreme</div>
+<button class="Button Button--extreme">Extreme</button>
 ```
+
 
 ## [Changelog](CHANGELOG.md)
