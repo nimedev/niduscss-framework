@@ -6,35 +6,21 @@
 
 > Base styles to create icon buttons for niduscss framework.
 
+
 ## Installation
 
 ```console
 $ npm install niduscss-components-icon-button
 ```
 
+
 ## Usage
-
-Define the custom properties in a file if you like modify the default values:
-
-Example: create a setting.css file:
-
-```css
-:root {
-  --IconButton-color: #fff;
-}
-```
 
 Import styles:
 
 styles.css:
 
 ```css
-/* Import first de file with custom properties or declare before import the
-   component.
-   ========================================================================== */
-
-@import "settings";
-
 /* Components
    ========================================================================== */
 @import "niduscss-components-icon-button";
@@ -42,10 +28,25 @@ styles.css:
 /* Other styles */
 ```
 
-Use in html files (angular component)
+Use in html files
 
 ```html
-<div class="IconButton">Menu</div>
+<!-- icon button with SVG menu icon -->
+<button class="IconButton">
+  <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+  </svg>
+</button>
+
+<!-- Disabled icon button -->
+<button class="IconButton IconButton--disabled">
+  <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+  </svg>
+</button>
 ```
+
 
 ## [Changelog](CHANGELOG.md)

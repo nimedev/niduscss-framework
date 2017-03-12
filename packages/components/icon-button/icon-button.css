@@ -5,6 +5,8 @@
  *  --IconButton-color: Modify text color of button;
  */
 
+@import "niduscss-libs-mixins";
+
 /**
  * 1. Prevent button text from being selectable.
  */
@@ -13,30 +15,29 @@
   /* Box-model */
   margin: 0;
   padding: 0;
-  width: 3rem;
-  line-height: 1;
+  width: 2.25rem;
+  height: 2.25rem;
 
   /* Tipography */
   text-align: center;
 
   /* Visual */
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
   border: none;
 
   /* Misc */
   user-select: none; /* 1 */
 
-  &:hover {
-    text-decoration: none;
-  }
+  /* Remove outline */
+  @mixin removeOutline;
 
-  &:active,
-  &:focus {
-    outline: none;
-  }
-
-  &:visited {
-    color: var(--IconButton-color, #fff);
+  /* Disabled button */
+  &--disabled,
+  &:disabled {
+    opacity: 0.5;
+    background-color: #fafafa;
+    color: #000;
+    cursor: default;
   }
 }

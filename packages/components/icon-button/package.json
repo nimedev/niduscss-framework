@@ -1,11 +1,8 @@
 {
   "name": "niduscss-components-icon-button",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Base styles to create icon buttons for niduscss framework",
   "style": "index.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nimedev/niduscss-framework"
@@ -27,6 +24,9 @@
   },
   "homepage": "https://github.com/nimedev/niduscss-framework",
   "engines": {
-    "node": ">=6.0.0 <7.0.0"
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "niduscss-libs-mixins": "1.0.0"
   }
 }

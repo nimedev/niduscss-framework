@@ -1,5 +1,15 @@
 # Change Log
 
+## [3.0.0] - 2017-03-11
+
+### Added
+- Add disable styles.
+
+### Modified
+- Change Default size.
+- Improve documentation.
+
+
 ## [2.0.0] - 2017-03-10
 
 ### Modified
