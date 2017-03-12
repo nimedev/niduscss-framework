@@ -1,6 +1,6 @@
 {
   "name": "niduscss-components-button",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Button CSS styles for niduscss framework",
   "style": "index.css",
   "repository": {
@@ -25,6 +25,7 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "niduscss-libs-mixins": "1.0.0"
+    "niduscss-libs-mixins": "1.0.0",
+    "niduscss-utils-mixins": "1.0.0"
   }
 }

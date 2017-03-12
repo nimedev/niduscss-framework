@@ -59,6 +59,18 @@ Use in html files
 <!-- Link Button -->
 <a class="Button">Link Button</a>
 
+<!-- Disabled Button -->
+<button class="Button Button--disabled">Button</button>
+
+<!-- Button containing multiple elements aligned vertically -->
+<button class="Button Button--combined">
+  <svg class="Button-icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+  </svg>
+  <span class="Button-label">Label</span>
+</button>
+
 <!-- Mini Button -->
 <button class="Button Button--mini">Mini</button>
 

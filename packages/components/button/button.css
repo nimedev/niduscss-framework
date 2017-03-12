@@ -13,6 +13,21 @@
  */
 
 @import "niduscss-libs-mixins";
+@import "niduscss-utils-mixins";
+
+:root {
+  --Button-fontColor-df: #262626;
+  --Button-fontSize-df: 1rem;
+  --Button-backgroundColor-df: #c0c0c0;
+}
+
+@define-mixin alignItem {
+  /* Box-model */
+  display: inline-block;
+
+  /* Typography */
+  vertical-align: middle;
+}
 
 /**
  * The main class to define a button.
@@ -27,15 +42,15 @@
   line-height: 2.25;
 
   /* Typography */
-  color: var(--Button-color, #fff);
-  font-size: var(--Button-font-size, 1rem);
+  color: var(--Button-color, var(--Button-fontColor-df));
+  font-size: var(--Button-font-size, var(--Button-fontSize-df));
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
 
   /* Visual */
-  background-color: var(--Button-background, #ff7043);
+  background-color: var(--Button-background, var(--Button-backgroundColor-df));
   border: none;
   cursor: pointer;
   border-radius: 0;
@@ -63,6 +78,40 @@
     background-color: #fafafa;
     color: #000;
     cursor: default;
+  }
+}
+
+/**
+ * Button containing multiple elements aligned vertically
+ */
+.Button--combined {
+  /* Icon color */
+  .Button-icon {
+    /* Visual */
+    fill: var(--Button-color, var(--Button-fontColor-df));
+  }
+
+  /* Vertical align */
+  @mixin u-alignContainer;
+
+  /* Import the vertical centering ghost mixin */
+  &::before {
+    @mixin u-alignGhost;
+  }
+
+  /* Icon element */
+  .Button-icon {
+    /* Align item */
+    @mixin alignItem;
+  }
+
+  /* Label element */
+  .Button-label {
+    /* Typography */
+    font-size: var(--Button-font-size, var(--Button-fontSize-df));
+
+    /* Align item */
+    @mixin alignItem;
   }
 }
 

@@ -5,3 +5,7 @@
 niduscss-libs-mixins@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/niduscss-libs-mixins/-/niduscss-libs-mixins-1.0.0.tgz#7ba3d0fac71ab6f5e82db4cf0b2ccf8fd29b395d"
+
+niduscss-utils-mixins@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/niduscss-utils-mixins/-/niduscss-utils-mixins-1.0.0.tgz#84301596f27ce31c142c7a7b6fd654d8bcda0575"
