@@ -71,6 +71,7 @@
   /* Positioning */
   position: absolute;
   left: var(--Dropdown-listGap);
+  z-index: inherit;
 
   /* Box-model */
   display: none;

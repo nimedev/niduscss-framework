@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.1.0] - 2017-04-25
+
+### Modified
+- Add: `z-index: inherit` to Dropdown-list class.
+
+
 ## [2.0.0] - 2017-03-11
 
 ### Deleted
