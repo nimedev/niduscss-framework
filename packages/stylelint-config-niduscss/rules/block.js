@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   rules: {
     'block-closing-brace-newline-after': 'always',

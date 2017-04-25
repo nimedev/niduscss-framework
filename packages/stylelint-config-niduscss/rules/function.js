@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   rules: {
     'function-calc-no-unspaced-operator': true,

@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   rules: {
     'media-feature-colon-space-after': 'always',

@@ -1,5 +1,14 @@
 # Change Log
 
+## [6.0.0] - 2017-04-25
+
+### Deleted
+- Remove: niduscss-utils-buttons component.
+
+### Updated
+- Upgrade devDep: eslint eslint-config-nimedev-base stylelint.
+
+
 ## [5.0.0] - 2017-03-11
 
 ### Deleted

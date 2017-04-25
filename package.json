@@ -1,6 +1,6 @@
 {
   "name": "niduscss-framework",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "A personal CSS framework to process with PostCSS",
   "scripts": {
     "lint": "npm run lint:css && npm run lint:js",
@@ -29,11 +29,11 @@
     "node": ">=6.9 <7.0.0"
   },
   "devDependencies": {
-    "eslint": "3.17.1",
-    "eslint-config-nimedev-base": "2.4.1",
+    "eslint": "3.19.0",
+    "eslint-config-nimedev-base": "3.0.0",
     "eslint-plugin-import": "2.2.0",
     "pre-commit": "1.2.2",
-    "stylelint": "7.9.0"
+    "stylelint": "7.10.1"
   },
   "eslintConfig": {
     "extends": "nimedev-base"

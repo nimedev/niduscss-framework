@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   rules: {
     'value-list-comma-newline-after': 'always-multi-line',

@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   rules: {
     'media-query-list-comma-newline-after': 'always-multi-line',
