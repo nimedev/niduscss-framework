@@ -5,7 +5,6 @@
 ## Modules
 - [align](align/README.md)
 - [animation](animation/README.md)
-- [buttons](buttons/README.md)
 - [flex](flex/README.md)
 - [mixins](mixins/README.md)
 - [shadow](shadow/README.md)
