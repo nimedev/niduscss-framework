@@ -25,6 +25,7 @@ Example: create a setting.css file:
   --Button-background: #ff7043;
   --Button-color: #fff;
   --Button-font-size: 1rem;
+  --Button-borderRadius: 0;
   --Button-fs-xsmall: var(--App-fs-xsmall);
   --Button-fs-small: var(--App-fs-small);
   --Button-fs-huge: var(--App-fs-huge);

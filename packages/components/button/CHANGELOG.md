@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.1.0] - 2017-05-04
+
+### Modified
+- Add --Button-borderRadius custom property.
+
+
 ## [2.0.0] - 2017-03-12
 
 ### Added

@@ -6,6 +6,7 @@
  *  --Button-background: Modify background color property.
  *  --Button-color: Modify text color of button;
  *  --Button-font-size: Mofify font-size property;
+ *  --Button-borderRadius: Modify the border radius.
  *  --Button-fs-xsmall: text size for xsmall buttons;
  *  --Button-fs-small: text size for small buttons;
  *  --Button-fs-huge: text size for huge buttons;
@@ -16,9 +17,9 @@
 @import "niduscss-utils-mixins";
 
 :root {
+  --Button-backgroundColor: var(--Button-background, #c0c0c0);
   --Button-fontColor-df: #262626;
   --Button-fontSize-df: 1rem;
-  --Button-backgroundColor-df: #c0c0c0;
 }
 
 @define-mixin alignItem {
@@ -50,10 +51,10 @@
   white-space: nowrap;
 
   /* Visual */
-  background-color: var(--Button-background, var(--Button-backgroundColor-df));
+  background-color: var(--Button-backgroundColor);
   border: none;
   cursor: pointer;
-  border-radius: 0;
+  border-radius: var(--Button-borderRadius, 0);
 
   /* Misc */
   user-select: none; /* 1 */
