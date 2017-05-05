@@ -5,12 +5,9 @@
  * Custom properties:
  *  --Button-background: Modify background color property.
  *  --Button-color: Modify text color of button;
+ *  --Button-height: Mofify line-height property;
  *  --Button-font-size: Mofify font-size property;
  *  --Button-borderRadius: Modify the border radius.
- *  --Button-fs-xsmall: text size for xsmall buttons;
- *  --Button-fs-small: text size for small buttons;
- *  --Button-fs-huge: text size for huge buttons;
- *  --Button-fs-extreme: text size for extreme buttons;
  */
 
 @import "niduscss-libs-mixins";
@@ -40,7 +37,7 @@
   display: inline-block;
   margin: 0;
   padding: 0 1rem;
-  line-height: 2.25;
+  line-height: var(--Button-height, 2.25);
 
   /* Typography */
   color: var(--Button-color, var(--Button-fontColor-df));
@@ -114,24 +111,4 @@
     /* Align item */
     @mixin alignItem;
   }
-}
-
-/**
- * Buttons by size.
- */
-
-.Button--mini {
-  font-size: var(--Button-fs-xsmall, 0.75rem);
-}
-
-.Button--small {
-  font-size: var(--Button-fs-small, 0.875rem);
-}
-
-.Button--huge {
-  font-size: var(--Button-fs-huge, 2.125rem);
-}
-
-.Button--extreme {
-  font-size: var(--Button-fs-extreme, 3.5rem);
 }

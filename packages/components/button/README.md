@@ -24,12 +24,9 @@ Example: create a setting.css file:
 :root {
   --Button-background: #ff7043;
   --Button-color: #fff;
+  --Button-height: 2.25rem;
   --Button-font-size: 1rem;
   --Button-borderRadius: 0;
-  --Button-fs-xsmall: var(--App-fs-xsmall);
-  --Button-fs-small: var(--App-fs-small);
-  --Button-fs-huge: var(--App-fs-huge);
-  --Button-fs-extreme: var(--App-fs-extreme);
 }
 ```
 
@@ -71,18 +68,6 @@ Use in html files
   </svg>
   <span class="Button-label">Label</span>
 </button>
-
-<!-- Mini Button -->
-<button class="Button Button--mini">Mini</button>
-
-<!-- Small Button -->
-<button class="Button Button--small">Small</button>
-
-<!-- Huge Button -->
-<button class="Button Button--huge">Huge</button>
-
-<!-- Extreme Button -->
-<button class="Button Button--extreme">Extreme</button>
 ```
 
 
