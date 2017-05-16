@@ -8,6 +8,7 @@
  *  --Button-height: Mofify line-height property;
  *  --Button-font-size: Mofify font-size property;
  *  --Button-borderRadius: Modify the border radius.
+ *  --Button-focusColor: Modify the shadow color when button is focused.
  */
 
 @import "niduscss-libs-mixins";
@@ -76,6 +77,12 @@
     background-color: #fafafa;
     color: #000;
     cursor: default;
+  }
+
+  /* Focus shadow */
+  button&:focus {
+    /* Visual */
+    box-shadow: 0 0 0.0625rem 0.0625rem var(--Button-focusColor, var(--Button-backgroundColor));
   }
 }
 

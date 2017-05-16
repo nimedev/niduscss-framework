@@ -27,6 +27,7 @@ Example: create a setting.css file:
   --Button-height: 2.25rem;
   --Button-font-size: 1rem;
   --Button-borderRadius: 0;
+  --Button-focusColor: #ff7043.
 }
 ```
 

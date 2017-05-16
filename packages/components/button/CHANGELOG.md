@@ -1,12 +1,17 @@
 # Change Log
 
+## [4.0.0] - 2017-05-16
+
+- [Breaking change]: Add shadow when button is focused.
+
+
 ## [3.0.0] - 2017-05-05
 
 ### Added
 - Add --Button-height custom-property.
 
 ### Modified
-- Breaking change: remove classes and custom-properties used in alternative sizes.
+- [Breaking change]: remove classes and custom-properties used in alternative sizes.
 
 
 ## [2.1.0] - 2017-05-04
