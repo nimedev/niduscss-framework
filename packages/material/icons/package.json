@@ -1,6 +1,6 @@
 {
   "name": "niduscss-material-icons",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Material design icons for niduscss framework",
   "style": "index.css",
   "repository": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/nimedev/niduscss-framework",
   "engines": {
+    "npm": ">=5.0.0",
     "node": ">=6.0.0 <7.0.0"
   },
   "dependencies": {

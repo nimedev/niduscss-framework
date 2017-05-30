@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.0.0] - 2017-05-30
+
+### Upgrade
+- [Breaking Change] Upgrade to npm v5.0.0.
+
+
 ## [1.1.0] - 2017-02-09
 
 ### Modified
