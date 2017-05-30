@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/nimedev/niduscss-framework",
   "engines": {
-    "npm": ">=3.10",
+    "npm": ">=5.0.0",
     "node": ">=6.9 <7.0.0"
   },
   "devDependencies": {
