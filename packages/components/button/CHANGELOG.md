@@ -1,5 +1,14 @@
 # Change Log
 
+## [5.0.0] - 2017-05-30
+
+### Modified
+- Set height property with --Button-height.
+
+### Updated
+- [Breaking Change] Upgrade to npm v5.0.0.
+
+
 ## [4.0.0] - 2017-05-16
 
 - [Breaking change]: Add shadow when button is focused.

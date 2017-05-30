@@ -18,6 +18,7 @@
   --Button-backgroundColor: var(--Button-background, #c0c0c0);
   --Button-fontColor-df: #262626;
   --Button-fontSize-df: 1rem;
+  --Button-height--default: 2.25rem;
 }
 
 @define-mixin alignItem {
@@ -38,10 +39,11 @@
   display: inline-block;
   margin: 0;
   padding: 0 1rem;
-  line-height: var(--Button-height, 2.25);
+  height: var(--Button-height, var(--Button-height--default));
 
   /* Typography */
   color: var(--Button-color, var(--Button-fontColor-df));
+  line-height: var(--Button-height, var(--Button-height--default));
   font-size: var(--Button-font-size, var(--Button-fontSize-df));
   text-align: center;
   text-transform: uppercase;
