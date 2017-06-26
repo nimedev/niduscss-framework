@@ -25,6 +25,7 @@ Example: create a setting.css file:
   --Form-fs-small: 0.875rem;
   --Form-fs-normal: 1rem;
   --Form-border-clr: #2196f3;
+  --Form-hover-clr: #808080;
 }
 ```
 
@@ -36,7 +37,7 @@ styles.css:
 /* Import first de file with custom properties or declare before import the
    component.
    ========================================================================== */
-   
+
 @import "settings";
 
 /* Elements
