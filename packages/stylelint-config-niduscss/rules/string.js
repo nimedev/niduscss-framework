@@ -2,6 +2,6 @@
 
 module.exports = {
   rules: {
-    'string-quotes': 'double'
-  }
+    'string-quotes': 'double',
+  },
 }

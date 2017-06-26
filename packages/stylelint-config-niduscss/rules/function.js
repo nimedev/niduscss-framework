@@ -10,6 +10,6 @@ module.exports = {
     'function-parentheses-newline-inside': 'always-multi-line',
     'function-parentheses-space-inside': 'never-single-line',
     'function-whitespace-after': 'always',
-    'function-url-quotes': 'always'
-  }
+    'function-url-quotes': 'always',
+  },
 }

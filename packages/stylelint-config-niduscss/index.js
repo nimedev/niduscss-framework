@@ -18,6 +18,6 @@ module.exports = {
     './rules/selector-list',
     './rules/selector',
     './rules/string',
-    './rules/value-list'
-  ].map(require.resolve)
+    './rules/value-list',
+  ].map(require.resolve),
 }

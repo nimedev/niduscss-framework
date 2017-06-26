@@ -8,6 +8,6 @@ module.exports = {
     'block-no-empty': true,
     'block-opening-brace-newline-after': 'always-multi-line',
     'block-opening-brace-space-after': 'always-single-line',
-    'block-opening-brace-space-before': 'always'
-  }
+    'block-opening-brace-space-before': 'always',
+  },
 }

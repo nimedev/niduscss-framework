@@ -7,6 +7,6 @@ module.exports = {
     'declaration-block-semicolon-space-after': 'always-single-line',
     'declaration-block-semicolon-space-before': 'never',
     'declaration-block-single-line-max-declarations': 1,
-    'declaration-block-trailing-semicolon': 'always'
-  }
+    'declaration-block-trailing-semicolon': 'always',
+  },
 }

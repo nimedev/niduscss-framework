@@ -7,9 +7,9 @@ module.exports = {
       {
         except: [
           'inside-block',
-          'blockless-after-blockless'
-        ]
-      }
-    ]
-  }
+          'blockless-after-blockless',
+        ],
+      },
+    ],
+  },
 }

@@ -6,12 +6,12 @@ module.exports = {
       'always-multi-line',
       {
         except: [
-          'first-nested'
+          'first-nested',
         ],
         ignore: [
-          'after-comment'
-        ]
-      }
-    ]
-  }
+          'after-comment',
+        ],
+      },
+    ],
+  },
 }

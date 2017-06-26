@@ -7,9 +7,9 @@ module.exports = {
     'max-line-length': [
       80,
       {
-        ignore: 'non-comments'
-      }
+        ignore: 'non-comments',
+      },
     ],
-    'no-eol-whitespace': true
-  }
+    'no-eol-whitespace': true,
+  },
 }

@@ -6,10 +6,10 @@ module.exports = {
       'always',
       {
         except: [
-          'first-nested'
-        ]
-      }
+          'first-nested',
+        ],
+      },
     ],
-    'comment-whitespace-inside': 'always'
-  }
+    'comment-whitespace-inside': 'always',
+  },
 }

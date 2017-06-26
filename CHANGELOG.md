@@ -1,5 +1,14 @@
 # Change Log
 
+## [6.1.0] - 2017-06-26
+
+### Deleted
+- Remove pre-commit hook.
+
+### Updated
+Upgrade devDep: eslint eslint-config-nimedev-base eslint-plugin-import stylelint.
+
+
 ## [6.0.0] - 2017-04-25
 
 ### Deleted
