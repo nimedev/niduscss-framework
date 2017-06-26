@@ -7,9 +7,6 @@
     "lint:css": "stylelint 'packages/**/*.css'",
     "lint:js": "eslint . --ext js"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/nimedev/niduscss-framework"
@@ -28,13 +25,7 @@
     "npm": ">=5.0.0",
     "node": ">=6.9 <7.0.0"
   },
-  "devDependencies": {
-    "eslint": "3.19.0",
-    "eslint-config-nimedev-base": "3.0.0",
-    "eslint-plugin-import": "2.2.0",
-    "pre-commit": "1.2.2",
-    "stylelint": "7.10.1"
-  },
+  "devDependencies": {},
   "eslintConfig": {
     "extends": "nimedev-base"
   },
