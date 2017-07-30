@@ -1,5 +1,11 @@
 # Change Log
 
+## [6.1.1] - 2017-07-29
+
+### Updated
+- Upgrade devDep: eslint eslint-plugin-import stylelint.
+
+
 ## [6.1.0] - 2017-06-26
 
 ### Deleted
