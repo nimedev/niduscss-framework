@@ -1,6 +1,6 @@
 {
   "name": "niduscss-framework",
-  "version": "6.1.2",
+  "version": "6.2.0",
   "description": "A personal CSS framework to process with PostCSS",
   "scripts": {
     "lint": "npm run lint:css && npm run lint:js",

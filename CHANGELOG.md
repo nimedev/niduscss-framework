@@ -1,5 +1,11 @@
 # Change Log
 
+## [6.2.0] - 2017-08-20
+
+### Added
+- Add postcss-niduscss package.
+
+
 ## [6.1.2] - 2017-08-20
 
 ### Updated

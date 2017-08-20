@@ -17,6 +17,7 @@ The modules are divided by sections:
 - [material](packages/material/README.md)
 - [utils](packages/utils/README.md)
 - [stylelint shareable config](packages/stylelint-config-niduscss/README.md)
+- [PostCSS config](packages/postcss-niduscss/README.md)
 
 
 ## [Changelog](CHANGELOG.md)
