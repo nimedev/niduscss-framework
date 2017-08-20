@@ -1,5 +1,12 @@
 # Change Log
 
+## [6.1.2] - 2017-08-20
+
+### Updated
+- Upgrade devDep: eslint.
+- Update package.json engines.
+
+
 ## [6.1.1] - 2017-07-29
 
 ### Updated
