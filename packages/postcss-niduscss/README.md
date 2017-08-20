@@ -17,5 +17,7 @@ $ npm install postcss-niduscss
 Import in `postcss.config.js` file:
 
 ```js
-module.exports = require('postcss-niduscss')
+const postcssNiduscss = require('postcss-niduscss')
+
+module.exports = { ...postcssNiduscss }
 ```

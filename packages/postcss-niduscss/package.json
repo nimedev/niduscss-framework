@@ -1,6 +1,6 @@
 {
   "name": "postcss-niduscss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "postcss-loader config for niduscss framework style guide",
   "main": "index.js",
   "repository": {
